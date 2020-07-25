@@ -1,2 +1,2 @@
 # Estoura_balao
- Jogo simples desenvolvido com javascript
+ Jogo simples desenvolvido para treinar javascript: [Jogo](https://gabrielhenrip.github.io/Estoura_balao/)
