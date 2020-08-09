@@ -20,30 +20,39 @@ html,body{
     justify-content: center;
     
 }
-form{
-    padding: 20px;
+.primeira-tela form{
+    padding: 40px 20px;
     max-width: 500px;
     width: 80%;
     background-color: rgba(243, 236, 236, 0.6);
     text-align: center;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-form h1 {
-    margin-bottom:20px ;
+.primeira-tela form h1 {
+    margin-bottom:40px ;
 }
 
-form span {
-    padding-left: 10px;
-    font-size: 20px;
+.primeira-tela form .input-container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.primeira-tela form .input-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 8px 10px 2px #888888;
+    font-size: 18px;
+    color: #8c6d95;
+    font-weight: bold;
 }
 
-form input[type=radio] {
-    width: 30px;
-    cursor: pointer;
-}
-
-form input[type=button]{
+.primeira-tela form input[type=button]{
+    background-color: #b47d7d;
     border: 0;
     padding: 13px 30px;
     border-radius: 3px;
@@ -52,10 +61,23 @@ form input[type=button]{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color .4s;
+}
+.primeira-tela form hr {
+    margin-top: 20px;
+    background-color: rgb(210, 163, 216);
+    border: 0;
+    outline: none;
+    height: 3px;
+    border-radius: 20px;
 }
 
-form h2 {
-    margin-bottom: 20px;
+.primeira-tela form input[type=button]:hover {
+    background-color: #8c6d95;
+}
+
+.primeira-tela form h2 {
+    margin-bottom: 10px;
 }
 
 .balao{
