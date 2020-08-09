@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(210, 163, 216);
+    z-index: -3;
+}
+.primeira-tela{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 4;
+    background-color: rgba(243, 117, 117, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    padding: 20px;
+    max-width: 500px;
+    width: 80%;
+    background-color: rgba(243, 236, 236, 0.6);
+    text-align: center;
+    border-radius: 10px;
+}
+
+form h1 {
+    margin-bottom:20px ;
+}
+
+form span {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+form input[type=radio] {
+    width: 30px;
+    cursor: pointer;
+}
+
+form input[type=button]{
+    border: 0;
+    padding: 13px 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+.balao{
+    width: 30px;
+    height: 40px;
+    border-radius: 90% 90% 100% 100%;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+.botaodeIniciar{
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    background-color: rgb(137, 214, 204);
+    padding: 10px 20px;
+    border-radius: 4px;
+    position: relative;
+    top: 200px;
+    font-size: 25px;
+    color: rgb(99, 112, 126);
+    cursor: pointer;
+    outline: 0;
+}
+h3{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: rgb(83, 14, 14);
+}
